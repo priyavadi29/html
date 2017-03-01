@@ -1,0 +1,13 @@
+nav li,a{
+	display:inline;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+	color: silver;
+	margin-top: 25px;
+}
+
+
+body{
+	background: black;
+}
