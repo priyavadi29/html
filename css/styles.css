@@ -1,54 +1,61 @@
 nav li,a{
 	display:inline;
 	text-decoration: none;
-	font-family:  'Luckiest Guy',cursive;
-	font-size: 12px;
-	color:black;
+	font-family:  'Luckiest Guy';
+	font-size: 15px;
+	color:white;
 	margin-top: 30px;
 
 }
 
 nav li a:hover{
-	color:red;
+	color:blue;
+	border: 1px solid red;
+	font-size: 22px;
 }
 
 nav ul{
-	margin-top: 20px;
+	margin-top: 18px;
 }
 
-header h1,img{
-	margin-top: 20px;
-	font-family: 'Indie Flower',comic sans ms;
-	color: black;
-	text-shadow: 3px -1px 1px blue;
+header img{
+	margin-top: 25px;
 	             
+}
+body{
+	
+	
+	background-image: url(../imgs/logo.jpg);
+	
 }
 
 .image{
 	padding-top: 0px;
 	margin-left: -10px;
-    margin-right: 50px;
+    margin-right: 90px;
 	min-width: 960px;
 	height:400px;
 
 }
 
 h2{
+	padding-top: 20px;
 	font-family: 'Bungee Inline', solid cursive;
-	color: blue;
+	color: white;
 	font-size: 200%;
-	padding:0;
-	margin:0;
+	
 }
 
-.container_12{
+/*.container_12{
 	
 	background-color:gray;
-}
+	background-image: url("benz.jpg");
+}*/
 
 header{
-	background-color:  purple;
+	
 	position: fixed;
+	/*background-image: url("../imgs/benz.jpg")*/
 
 }
 
@@ -59,37 +66,38 @@ header{
 	text-align: center;
 	padding-top: 0px;
 	font-family: 'Poiret One', cursive;
-	color:  black;
+	color:  white;
 }
 
 .content section{
 	font-family: 'Poiret One', cursive;
-	color:  black;
+	color:  white;
 	font-size: 20px;
 	padding-top: 20px;
+
 }
 
 
 
 .grid_6{
 	padding-top: 10px;
+	letter-spacing: .1px;
 }
 .info img{
-	width: 460px;
-	height:460px;
+	width: 450px;
+	height:450px;
 }
 .info{
 	
 	font-size: 12px;
-	color: blue;
+	color: gray;
 	font-family: 'Bungee Inline',cursive;
 }
 .foot{
-	background-color:black; 
-	font-family: 'Poiret One', cursive;
-	font-size: 25px;
-	margin-top: 500px;
-	color:  #f97427;
+	font-family: cursive;
+	font-size: 18px;
+	margin-top: 700px;
+	color:  white;
 
 }
 .foot img{
